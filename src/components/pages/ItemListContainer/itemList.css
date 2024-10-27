@@ -1,0 +1,27 @@
+
+.contenedorItemList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    margin: 30px 0px;
+}
+
+.contenedorItemList h1{
+    margin-bottom: 30px;
+}
+
+.subconteneritemlist{
+    width: 80%;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 30px;
+
+    background-color: rgba(0, 0, 0, 0.200);
+    box-shadow: 10px 10px 10px black;
+}

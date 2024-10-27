@@ -1,7 +1,9 @@
 import React from 'react'
+import "./cartContainer.css"
 
 export const CartContainer = () => {
   return (
-    <div>ACA EN CARRITO</div>
+    <div className='contenedorcarrito' >Futuro Carrito en Proceso...</div>
+
   )
 }

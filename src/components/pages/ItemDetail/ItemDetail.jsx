@@ -1,10 +1,22 @@
 import React from 'react'
+import "./itemDetail.css"
 
 export const ItemDetail = ({item}) => {
   return (
-    <div>
-        <h2>Titulo es: {item.title}</h2>
+    <div className='contenedorDetailPadre'>
+
+      <div className='contenedordetalles'>
+        <h2>{item.title}</h2>
+        <p>{item.description}</p>
+        <span>Su precio es:  ${item.price}</span>
+        <button>Agregar al Carrito</button>
+
+      </div>
+
+      <div className='contenedorimagen'>
         <img src={item.imagenUrl} alt="" />
+      </div>
+
     </div>
   )
 }
