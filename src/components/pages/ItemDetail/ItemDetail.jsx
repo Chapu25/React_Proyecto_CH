@@ -7,7 +7,6 @@ export const ItemDetail = ({item}) => {
 
       <div className='contenedordetalles'>
         <h2>{item.title}</h2>
-        <p>{item.description}</p>
         <span>Su precio es:  ${item.price}</span>
         <button>Agregar al Carrito</button>
 

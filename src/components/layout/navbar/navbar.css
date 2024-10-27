@@ -4,12 +4,17 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    
+}
+.container_navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
 }
 .container_navbar ul{
     display: flex;
     align-items: center;
     gap: 50px;
-    list-style-type: none;
 }
 .container_navbar li{
     padding: 30px;
