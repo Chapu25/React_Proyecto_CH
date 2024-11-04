@@ -19,11 +19,15 @@ export const ItemListContainer = (  ) => {
             resolve(name ? unaFraccion : products);
         });
         getProducts.then((res)=>{
-            setItems(res)
+            setTimeout(() => {
+                setItems(res) 
+            }, 2000);
         })
     },[ name ])
 
-return (
-    <ItemList items={items} />
-);
+
+    if (items.length === 0) {
+        return <h1>Cargando...</h1>
+    }
+    return ( <ItemList items={items} />);
 }

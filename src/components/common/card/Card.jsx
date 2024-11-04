@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import "./card.css"
 
 
-export const Card = ({title, price, stock, imagenUrl, id} ) => {
+export const Card = ( {title, price, stock, imagenUrl, id} ) => {
 
 return (
 
