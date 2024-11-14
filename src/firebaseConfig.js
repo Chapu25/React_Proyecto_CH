@@ -13,13 +13,6 @@ const firebaseConfig = {
   storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
   messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
   appId: import.meta.env.VITE_APP_ID,
-
-  /* apiKey: "AIzaSyA_oWAd-61SwNfVga7VW_IDRiw8vMlZxoo",
-  authDomain: "backend-nico.firebaseapp.com",
-  projectId: "backend-nico",
-  storageBucket: "backend-nico.firebasestorage.app",
-  messagingSenderId: "591235659674",
-  appId: "1:591235659674:web:cd819b57fc5f90c0d2ac23" */
 };
 
 // Initialize Firebase
