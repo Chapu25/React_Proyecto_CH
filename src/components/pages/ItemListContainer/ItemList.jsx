@@ -23,7 +23,8 @@ export const ItemList = ({items}) => {
         };
       </div>
 
-      <ModalCustom title="Titulo custom" >
+
+      {/* <ModalCustom title="Titulo custom" >
         <div>
           <h5>Un formulario</h5>
           <form action="">
@@ -36,7 +37,8 @@ export const ItemList = ({items}) => {
         <div>
           <button>Sumar</button>
         </div>
-      </ModalCustom>
+      </ModalCustom> */}
+
     </div>
   )
 }

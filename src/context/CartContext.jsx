@@ -30,6 +30,7 @@ export const CartContextProvider = ({children})=>{
     const removeById = (id) =>{
         let arrayFiltrado =  cart.filter((item) => item.id !== id)
         setCart(arrayFiltrado)
+        
     }
 
     const resetCart = () =>{

@@ -12,6 +12,14 @@
     flex-direction: column;
     gap: 100px;
     width: 50%;
+
+}
+.contenedordetalles button{
+    padding: 5px 20px;
+    margin: 10px 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    gap: 20px;
 }
 
 .contenedorimagen{

@@ -1,0 +1,29 @@
+.contenedorCheckout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.contenedorCheckout input{
+    padding: 5px 20px;
+    margin: 10px 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    gap: 20px;
+    width: 300px;
+}
+.contenedorBotonesCheckout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.contenedorBotones button{
+    padding: 5px 20px;
+    margin: 10px 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    gap: 20px;
+}

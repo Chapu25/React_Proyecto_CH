@@ -2,17 +2,17 @@ import { BiCategory } from "react-icons/bi";
 
 export const products = [
 
-    {
-        id: "1",
+    /* {
+        //id: "1",
         title: "smirnoff",
         price: "4500",
         stock: "4",
         imagenUrl: "https://labebidadetusfiestas.com.ar/42111/vodka-smirnoff-raspberry-700cc.jpg",
         description: "sdasdasdasdas",
         category: "vodka"
-    },
+    }, */
     {
-        id: "2",
+        //id: "2",
         title: "Sky",
         price: "6000",
         stock: "3",
@@ -20,18 +20,18 @@ export const products = [
         description: "sdasdasdasdas",
         category: "vodka"
     },
-    {
-        id: "3",
+    /* {
+        //id: "3",
         title: "Fernet",
         price: "10000",
         stock: "7",
         imagenUrl: "https://argentinow.com//imagenes/archivos/2021-01/1413-916.jpg",
         description: "sdasdasdasdas",
         category: "licor"
-    },
+    }, */
 
     {
-        id: "4",
+        //id: "4",
         title: "Johnnie Walker",
         price: "40000",
         stock: "4",
@@ -41,7 +41,7 @@ export const products = [
     },
 
     {
-        id: "5",
+        //id: "5",
         title: "Absolut Vodka",
         price: "4500",
         stock: "2",
@@ -51,7 +51,7 @@ export const products = [
     },
     
     {
-        id: "6",
+        //id: "6",
         title: "Sernova",
         price: "4500",
         stock: "10",
@@ -61,7 +61,7 @@ export const products = [
     },
 
     {
-        id: "7",
+        //id: "7",
         title: "Jagermeister",
         price: "4500",
         stock: "6",

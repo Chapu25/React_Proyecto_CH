@@ -15,9 +15,9 @@ const Counter = ( {stock, agregarAlCarrito, totalInCart} ) => {
 
   return (
     <div style={{ margin: "50px",}} >
+      <h2>Contador = {contador}</h2>
       <button onClick={sumar}>sumar</button>
       <button onClick={restar}>restar</button>
-      <h2>Contador = {contador}</h2>
 
       <button onClick= {()=> agregarAlCarrito(contador)} >Agregar al Carrito</button>
     </div>

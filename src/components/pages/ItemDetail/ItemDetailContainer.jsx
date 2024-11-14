@@ -3,6 +3,8 @@ import { ItemDetail } from './ItemDetail'
 import { products } from "../../../products"
 import { useParams } from "react-router-dom"
 import { CartContext } from '../../../context/CartContext'
+import { db } from '../../../firebaseConfig'
+import { collection ,getDoc, doc } from 'firebase/firestore'
 
 export const ItemDetailContainer = () => {
 
@@ -15,8 +17,11 @@ export const ItemDetailContainer = () => {
   const [item,  setItem] = useState({});
 
     useEffect(()=>{
-        let productsSelected = products.find((producto) => producto.id === id )
-        setItem(productsSelected)
+        const productsCollection = collection( db , "products" )
+        const docRef =  doc( productsCollection , id )
+        getDoc(docRef).then((res) =>{
+          setItem({...res.data(), id: res.id })
+        })
     },[ id ])
 
     const agregarAlCarrito = (cantidad)=>{

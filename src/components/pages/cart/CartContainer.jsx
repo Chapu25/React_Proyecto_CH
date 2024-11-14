@@ -18,7 +18,7 @@ export const CartContainer = () => {
         cart.map((product) =>{
           return (
             <div key={product.id} className="contenedor-producto">
-              <img src={product.imagenUr} alt={product.name} />
+              <img src={product.imagenUrl} alt={product.name} />
               <p>{product.name}</p>
               <p>Precio: ${product.price}</p>
               <p>Cantidad: {product.quantity}</p>
@@ -29,14 +29,16 @@ export const CartContainer = () => {
         })
       }
 
-      
-      {cart.length > 0 && <button onClick={resetCart}>Limpiar Carrito</button>}
+      <div className='contenedorbotones'>
+        {cart.length > 0 && <button onClick={resetCart}>Limpiar Carrito</button>}
 
-      <h2>El total a pagar es: {totalEnElCarrito} </h2>
+        <h2>El total a pagar es: {totalEnElCarrito} </h2>
 
-      <div>
-        <Link to="/checkout">Finalizar Compra</Link>
+        <div className='contenedorboton'>
+          <Link to="/checkout"><button>Finalizar Compra</button></Link>
+        </div>
       </div>
+      
     </div>
     
 
